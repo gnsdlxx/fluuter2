@@ -1,0 +1,25 @@
+name: exam1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_kakao_map: ^0.0.3
+  google_maps_flutter: ^2.2.0
+    
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
